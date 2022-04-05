@@ -1,3 +1,7 @@
+# simple-native-db-client
+
+Frontend client for [simple-native-db](https://github.com/homhom2012z/simple-native-db). Built with [Next.js](https://nextjs.org/) & [Chakra-UI](https://chakra-ui.com/)
+<br/><hr/>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
