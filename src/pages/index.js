@@ -14,9 +14,6 @@ export default function Home() {
               duration: 2,
               repeatType: "reverse",
             }}
-            marginY={8}
-            maxWidth={[240, 320]}
-            marginX="auto"
           >
             <Box mb={4}>
               <Image
