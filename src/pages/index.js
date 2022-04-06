@@ -1,19 +1,33 @@
 import { Box, Button, Image, Link, Text, Stack } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <>
       <Stack spacing={4} align="center">
         <Box mt={8} mb={4}>
-          <Box mb={4}>
-            <Image
-              src="/Programming-amico.svg"
-              width={400}
-              height={400}
-              alt="Launching Illustration"
-            />
-          </Box>
+          <motion.div
+            animate={{ y: 20, scale: 0.97 }}
+            transition={{
+              repeat: Infinity,
+              duration: 2,
+              repeatType: "reverse",
+            }}
+            marginY={8}
+            maxWidth={[240, 320]}
+            marginX="auto"
+          >
+            <Box mb={4}>
+              <Image
+                src="/Programming-amico.svg"
+                width={400}
+                height={400}
+                alt="Launching Illustration"
+              />
+            </Box>
+          </motion.div>
+
           <Text textAlign="center" fontSize="xs">
             <Link
               href="https://www.freepik.com/stories"
@@ -24,6 +38,7 @@ export default function Home() {
             </Link>
           </Text>
         </Box>
+
         <Box
           textAlign={{ base: "center", md: "center" }}
           alignItems="center"
