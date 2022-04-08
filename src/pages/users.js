@@ -74,7 +74,7 @@ const Users = () => {
                 size={"sm"}
                 onClick={() => setViewSwitch(!viewSwitch ? true : false)}
               >
-                JSON View
+                {!viewSwitch ? "JSON View" : "Card View"}
               </Button>
               <Button
                 colorScheme={"pink"}
