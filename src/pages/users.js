@@ -57,7 +57,7 @@ const Users = () => {
     return () => {
       isMounted = false;
     };
-  }, [userData]);
+  }, []);
 
   return (
     <>
